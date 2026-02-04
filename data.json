@@ -1,0 +1,24 @@
+{
+  "cars": [],
+  "transfers": [
+    {
+      "car_id": "2E78473C",
+      "car_model": "Chery Tiggo",
+      "car_color": "Синий",
+      "from_location": "Склад",
+      "to_location": "Дилерский центр",
+      "transfer_date": "04.02.2026 15:38",
+      "id": "6AD80429"
+    },
+    {
+      "car_id": "2E78473C",
+      "car_model": "Chery Tiggo",
+      "car_color": "Синий",
+      "from_location": "Дилерский центр",
+      "to_location": "Склад",
+      "transfer_date": "04.02.2026 15:38",
+      "id": "2009E200"
+    }
+  ],
+  "sales": []
+}
