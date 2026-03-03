@@ -43,11 +43,16 @@ def format_phone(phone: str) -> str:
     return phone
 
 
-# Предустановленные данные
 CAR_MODELS = [
-    "WOW", "Lada Vesta", "Lada Granta", "Lada Niva", 
-    "Haval Jolion", "Haval F7", "Chery Tiggo", "Geely Coolray",
-    "EXEED TXL", "Omoda C5", "Changan CS55", "FAW Bestune T77"
+    "ГАЗель NEXT",
+    "ГАЗель NN", 
+    "ГАЗель Бизнес",
+    "Соболь NN",
+    "Соболь NEXT",
+    "ГАЗон NEXT",
+    "Валдай NEXT",
+    "Садко NEXT",
+    "ГАЗ Титан"
 ]
 
 CAR_COLORS = [

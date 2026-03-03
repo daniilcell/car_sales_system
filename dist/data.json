@@ -1,5 +1,73 @@
 {
-  "cars": [],
-  "transfers": [],
-  "sales": []
+  "cars": [
+    {
+      "model": "ГАЗель NEXT",
+      "color": "Серебристый",
+      "price": 2200000.0,
+      "id": "24A1EFA2",
+      "location": "Дилерский центр",
+      "status": "Доступен",
+      "arrival_date": "03.03.2026 22:17",
+      "vin": "VINC625E45C423A4D"
+    },
+    {
+      "model": "ГАЗель NEXT",
+      "color": "Серебристый",
+      "price": 2200000.0,
+      "id": "C20CD23B",
+      "location": "Продан",
+      "status": "Продан",
+      "arrival_date": "03.03.2026 22:17",
+      "vin": "VINDEAF51DDC5D442"
+    },
+    {
+      "model": "ГАЗель NEXT",
+      "color": "Серебристый",
+      "price": 2200000.0,
+      "id": "977E4B70",
+      "location": "Продан",
+      "status": "Продан",
+      "arrival_date": "03.03.2026 22:17",
+      "vin": "VIN4B90016BCEC24D"
+    }
+  ],
+  "transfers": [
+    {
+      "car_id": "24A1EFA2",
+      "car_model": "ГАЗель NEXT",
+      "car_color": "Серебристый",
+      "from_location": "Склад",
+      "to_location": "Дилерский центр",
+      "transfer_date": "03.03.2026 22:18",
+      "id": "E2727FCA"
+    }
+  ],
+  "sales": [
+    {
+      "car_id": "C20CD23B",
+      "car_model": "ГАЗель NEXT",
+      "car_color": "Серебристый",
+      "car_vin": "VINDEAF51DDC5D442",
+      "buyer_name": "Иванов Пётр Сергеевич",
+      "buyer_phone": "+79876543210",
+      "buyer_email": "example@mail.com",
+      "sale_price": 2200000.0,
+      "sale_date": "03.03.2026 22:20",
+      "id": "FB6E3947",
+      "payment_method": "Банковский перевод"
+    },
+    {
+      "car_id": "977E4B70",
+      "car_model": "ГАЗель NEXT",
+      "car_color": "Серебристый",
+      "car_vin": "VIN4B90016BCEC24D",
+      "buyer_name": "Петров Сергей Иванович",
+      "buyer_phone": "+79638527410",
+      "buyer_email": "email@mail.com",
+      "sale_price": 2450000.0,
+      "sale_date": "03.03.2026 22:21",
+      "id": "CCAFD785",
+      "payment_method": "Наличные"
+    }
+  ]
 }
